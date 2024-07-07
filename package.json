@@ -42,5 +42,6 @@
             "pixel",
             "next"
         ]
-    }
+    },
+    "packageManager": "pnpm@9.1.0"
 }
