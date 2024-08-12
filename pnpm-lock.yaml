@@ -46,14 +46,14 @@ importers:
         version: 2.4.0
       tailwindcss-animate:
         specifier: ^1.0.7
-        version: 1.0.7(tailwindcss@3.4.7)
+        version: 1.0.7(tailwindcss@3.4.9)
     devDependencies:
       '@ianvs/prettier-plugin-sort-imports':
         specifier: ^4.3.1
         version: 4.3.1(prettier@3.3.3)
       '@tailwindcss/typography':
         specifier: ^0.5.13
-        version: 0.5.13(tailwindcss@3.4.7)
+        version: 0.5.13(tailwindcss@3.4.9)
       '@types/node':
         specifier: 22.0.0
         version: 22.0.0
@@ -82,8 +82,8 @@ importers:
         specifier: ^0.6.5
         version: 0.6.5(@ianvs/prettier-plugin-sort-imports@4.3.1(prettier@3.3.3))(prettier@3.3.3)
       tailwindcss:
-        specifier: ^3.4.7
-        version: 3.4.7
+        specifier: ^3.4.9
+        version: 3.4.9
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -2098,8 +2098,8 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
 
-  tailwindcss@3.4.7:
-    resolution: {integrity: sha512-rxWZbe87YJb4OcSopb7up2Ba4U82BoiSGUdoDr3Ydrg9ckxFS/YWsvhN323GMcddgU65QRy7JndC7ahhInhvlQ==}
+  tailwindcss@3.4.9:
+    resolution: {integrity: sha512-1SEOvRr6sSdV5IDf9iC+NU4dhwdqzF4zKKq3sAbasUWHEM6lsMhX+eNN5gkPx1BvLFEnZQEUFbXnGj8Qlp83Pg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -2799,13 +2799,13 @@ snapshots:
       '@swc/counter': 0.1.3
       tslib: 2.6.2
 
-  '@tailwindcss/typography@0.5.13(tailwindcss@3.4.7)':
+  '@tailwindcss/typography@0.5.13(tailwindcss@3.4.9)':
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.4.7
+      tailwindcss: 3.4.9
 
   '@types/json-schema@7.0.15': {}
 
@@ -4369,11 +4369,11 @@ snapshots:
 
   tailwind-merge@2.4.0: {}
 
-  tailwindcss-animate@1.0.7(tailwindcss@3.4.7):
+  tailwindcss-animate@1.0.7(tailwindcss@3.4.9):
     dependencies:
-      tailwindcss: 3.4.7
+      tailwindcss: 3.4.9
 
-  tailwindcss@3.4.7:
+  tailwindcss@3.4.9:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
