@@ -10,12 +10,11 @@ interface Event {
 }
 
 const Page = () => {
-    const [startTime, setStartTime] = useState<number>(0);
     const [currentEvent, setCurrentEvent] = useState<Event | null>(null);
     const [events, setEvents] = useState<Event[]>([]);
 
     useEffect(() => {
-        setStartTime(Date.now());
+        const startTime = Date.now();
         const keyMouseMessages = {
             0: '0: Main button pressed, usually the left button or the un-initialized state',
             1: '1: Auxiliary button pressed, usually the wheel button or the middle button (if present)',
@@ -93,7 +92,7 @@ const Page = () => {
             window.removeEventListener('keydown', onKeyDown);
             window.removeEventListener('keyup', onKeyUp);
         };
-    }, [startTime]);
+    }, []);
 
     return (
         <div className="flex flex-col gap-4 md:flex-row md:gap-8">
